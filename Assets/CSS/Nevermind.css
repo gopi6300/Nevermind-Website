@@ -1,0 +1,281 @@
+*{
+	font-family: 'Montserrat';
+	font-style: normal;
+	line-height: 24px;
+}
+/*Header*/
+#header{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 88px;
+	gap: 10px;
+	background:#86E1FF;
+	}
+#logo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 10px;
+	width: 136.21px;
+	height: 23px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+#never{
+	display: contents;
+	width: 115px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #404040;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	padding-top: 10px;
+}
+#frontlist{
+    float: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px;
+    cursor: pointer;
+    position: absolute;
+    width: 297px;
+}
+
+
+/*fisrt part*/
+.box{
+	margin: 70px;
+}
+.box2{
+	width: 25%;
+}
+#exphoto{
+	width: auto;
+	height: auto;
+	filter: drop-shadow(4px 6px 13px rgba(0, 0, 0, 0.25));
+	border-radius: 13px;
+	float: right;
+	margin-right: 120px;
+}
+
+#simple{
+	float: right;
+	margin-right: 160px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 110%;
+	color: #404040;
+}
+#exwords1{
+	font-weight: 900;
+	font-size: 35px;
+	color: #2D2D2D;
+
+}
+#exwords2{
+	font-weight: 900;
+	font-size: 35px;
+	color:   #C174FF;
+}
+
+#playstorelink{
+    width: 440px;
+	color: #000000;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	gap: 10px;
+	margin-top: 15px;
+	position: absolute;
+	background: #86E1FF;
+	font-weight: 600;
+	border: 1px solid #000000;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.125);
+	border-radius: 12px;
+}
+.links-1 {
+    padding: 10px;
+	
+}
+.links-2 {
+    padding: 10px;
+	color: #848282;
+	font-size: 16px;
+}
+.links-1:hover{
+    color: #508A7A;
+}
+
+/*......second part.......*/
+
+#secondpart{
+	width: 100%;
+	background: rgba(136, 96, 208, 0.9);
+}
+#heading2{
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 37px;
+	text-align: center;
+	padding-top: 30px;
+	margin: 0px;
+	color: #FFFFFF;
+}
+#photo2{
+	margin-top: 25%;
+	padding-left: 25%;
+}
+.tablerow{
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 30px;
+}
+.disc3{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 27px;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.disc32{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+	color: #FFFFFF;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+/*thirdpart*/
+#thirdpart{
+	left: 0px;
+background: #508A7A;
+}
+#photo3{
+	margin-top: 25%;
+}
+.tablerow2{
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 30px;
+
+}
+
+/*coursel*/
+#heading3{
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	color: #606060;
+	padding: 20px;
+}
+
+.stars{
+	padding: 10px;
+}
+.courselinfo{
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #606060;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.coursel-content{
+	justify-content: center;
+	display: flex;
+}
+
+#chat{
+	height: 220px;
+	background: #E1F5D2;
+}
+#name{
+	margin-top: 20px;
+	padding: 25px;
+	text-align: center;
+	font-family: 'helvetica';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+	color: #323351;
+}
+#name2{
+	text-align: center;
+	font-family: 'helvetica';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #292929;
+}
+#name3{
+	color: white;
+    width: 350px;
+    box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin: 25px;
+	background: #151515;
+	border: 1px solid #000000;
+	border-radius: 25px;
+}
+#name3div{
+    display: flex;
+    justify-content: center;
+}
+#footer{
+	background: #B4ECFF;
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+#copy{
+	text-align: center;
+	font-family: 'helvetica';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	color: #000000;
+	padding: 10px;
+}
+.socialmediaicons{
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 28.01px;
+	height: 28.73px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+
+
