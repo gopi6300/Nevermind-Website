@@ -180,8 +180,8 @@ background: #508A7A;
 	gap: 30px;
 
 }
-.stacking:hover{
-	color: grey;
+.disc32 a:hover{
+	color: darkgrey;
 }
 
 /*coursel*/
